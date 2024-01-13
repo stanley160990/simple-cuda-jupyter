@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
+FROM nvidia/cuda:11.4.3-cudnn8-runtime-ubuntu20.04
 RUN useradd -ms /bin/bash dbcooper
 RUN apt update
 RUN apt install -y python3 python3-pip 
